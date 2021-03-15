@@ -3,7 +3,7 @@ package uk.ac.aston.jpc.lab1.life.sim;
 public class Launcher {
     public static void main(String[] args) throws InterruptedException {
         // 1: create a new World and assign it to w
-        World w = oscillator();
+        World w = spaceship();
         while (true) {
             // print out "----"
             // print out the World
